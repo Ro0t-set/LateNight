@@ -1,0 +1,263 @@
+
+.triangolo2 {
+	
+	position: relative;
+	right: 0;
+	bottom: 0;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 86px solid orange;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 1;
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo1 {
+	
+	position: relative;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid orange;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 2;
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo3 {
+	
+	position: relative;
+	right: 50px;
+	bottom: 258px;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid orange;
+	-moz-transform:rotate(-180deg);
+	-webkit-transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+
+.triangolo4 {
+	position: relative;
+	left: 50px;
+	bottom: 172px;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid orange;
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+
+
+.triangolo5{
+	position: relative;
+	right: 50px;
+	bottom: 258px;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid orange;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+}
+
+.triangolo6{
+	position: relative;
+	left: 50px;
+	bottom: 344px;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid orange;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo1:hover{
+	opacity: 0.5;
+	position: relative;
+	width:0;
+	height:0;
+	bottom: 3px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid yellow;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 1;
+}
+.triangolo2:hover{
+	opacity: 0.5;
+	position: relative;
+	width:0;
+	height:0;
+	bottom: -3px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 86px solid yellow;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 2;
+}
+.triangolo3:hover{
+	opacity: 0.5;
+	position: relative;
+	right: 53px;
+	bottom: 259px;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid yellow;
+	-moz-transform:rotate(-180deg);
+	-webkit-transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+
+}
+.triangolo5:hover{
+	opacity: 0.5;
+	position: relative;
+	right: 53px;
+	bottom: 257px;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid yellow;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+
+}
+.triangolo6:hover{
+	opacity: 0.5;
+	position: relative;
+	left: 53px;
+	bottom: 343px;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid yellow;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+
+}
+.triangolo4:hover{
+	opacity: 0.5;
+	position: relative;
+	left: 53px;
+	bottom: 174px;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid yellow;
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+
+}
+
+.faccia1{
+	width:100px;
+	height:87.6px;
+	position: relative;
+	bottom: -100px;
+	right: 140px;
+	-moz-transform:skew(30deg);
+	-webkit-transform:skew(30deg);
+	-ms-transform: skew(30deg);
+	-o-transform: skew(30deg);
+	transform: rotate(120deg) skew(30deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+  	background: #1e5799; 
+  	background: -moz-linear-gradient(top, #1e5799 0%, #7db9e8 100%); 
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), 
+  	color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */ 
+  	background: -webkit-linear-gradient(bottom, #000 0%,#FFFFF0 100%); /* Chrome10+,Safari5.1+ */ 
+  	background: -o-linear-gradient(top, #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */ 
+  	background: -ms-linear-gradient(top, #1e5799 0%,#7db9e8 100%); /* IE10+ */ 
+  	background: linear-gradient(top, #1e5799 0%,#7db9e8 100%); /* W3C */ 
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+.faccia2{
+	width:100px;
+	height:87.6px;
+	position: relative;
+	bottom: 35px;
+	right: 220px;
+	-moz-transform:skew(30deg);
+	-webkit-transform:skew(30deg);
+	-ms-transform: skew(30deg);
+	-o-transform: skew(30deg);
+	transform: rotate(60deg) skew(30deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+  	background-color: black;
+}
+.faccia3{
+	width:100px;
+	height:87.6px;
+	position: relative;
+	bottom: 170px;
+	right: 140px;
+	-moz-transform:skew(30deg);
+	-webkit-transform:skew(30deg);
+	-ms-transform: skew(30deg);
+	-o-transform: skew(30deg);
+	transform: skew(30deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+  	background-color: black;
+}
