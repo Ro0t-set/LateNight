@@ -1,0 +1,62 @@
+.text-box {
+	position: relative;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border-color: gray;
+    font-size: 12px;
+    outline: none;
+    -webkit-transition: 0.1s;
+  	transition: 0.1s;
+  	-webkit-transition-duration: 0.1s;
+}
+
+.text-box:hover {
+	position: relative;
+	border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border-color: blue;
+    font-size: 15px;
+    outline: none;
+}
+
+.text-box-name{
+	position: relative;
+	bottom: -30px;
+	-webkit-transition: 0.1s;
+  	transition: 0.1s;
+  	-webkit-transition-duration: 0.1s;
+}
+
+.text-box-name:hover{
+	position: relative;
+	right: 100px;
+	bottom: -30px;
+
+}
+
+
+
+.text-1{
+	font-size: 20px;
+    background-color: white;
+    opacity: 0.2;
+    border-color: black;
+    color: black;
+    padding: 5px 30px;
+ 	outline-color: blue;
+    line-height: 1.3333333;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-top: 10px;
+}
+
+.text-1:hover{
+	border-color: blue;
+    color: blue;
+}

@@ -1,0 +1,39 @@
+.button1{
+	padding: 5px 20px;
+	background-color: transparent;
+	border-radius: 4px;
+	line-height: 1.3333333;
+	box-shadow: none;
+	border-color: gray;
+	opacity: 0.4;
+	outline: none;
+}
+
+.button1:hover{
+	padding: 5px 20px;
+	background-color: transparent;
+	border-radius: 4px;
+	line-height: 1.3333333;
+	box-shadow: none;
+	border-color: gray;
+	opacity: 1;
+	border-style: solid;
+	outline: none;
+}
+
+.button1:active{
+	padding: 5px 20px;
+	background-color: transparent;
+	border-radius: 4px;
+	line-height: 1.3333333;
+	box-shadow: none;
+	border-color: gray;
+	opacity: 1;
+	border-style: solid;
+    outline-color: black;
+}
+
+.fixed{
+	position: center;
+	padding: 25px 25px;
+}

@@ -1,4 +1,8 @@
 
+body{
+	background-color: white;
+}
+
 .triangolo2 {
 	
 	position: relative;
@@ -260,4 +264,37 @@
 	-webkit-transition: .3s;
   	transition: .3s;
   	background-color: black;
+}
+
+.square{
+	background-color: yellow;
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
+	transform: rotate(45deg);
+	-webkit-transition: .5s;
+  	transition: .5s;
+  	opacity: 0.5;
+}
+
+.square:hover{
+	background-color: yellow;
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	transform: rotate(360deg);
+	opacity: 1;
+}
+
+.fixed{
+	position: center;
+	transform: rotate(-45deg);
+	transition: .3s;
+}
+
+.fixed:hover{
+	position: center;
+	transform: rotate(-360deg);
+	transition: .3s;
 }
