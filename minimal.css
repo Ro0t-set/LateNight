@@ -3,8 +3,61 @@ body{
 	background-color: white;
 }
 
-.triangolo2 {
+
+.triangolo1 
+{
 	
+	position: relative;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid orange;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 2;
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo1Small
+{
+	position: relative;
+	width:0;
+	height:0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 43px solid orange;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 2;
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo1Big
+{
+	position: relative;
+	width:0;
+	height:0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 172px solid orange;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 2;
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo2 
+{
 	position: relative;
 	right: 0;
 	bottom: 0;
@@ -22,24 +75,46 @@ body{
 	-webkit-transition: .3s;
   	transition: .3s;
 }
-.triangolo1 {
-	
-	position: relative;
+.triangolo2Small
+{
+   position: relative;
+	right: 0;
+	bottom: 0;
 	width:0;
 	height:0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 86px solid orange;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 43px solid orange;
 	-moz-transform:rotate(0);
 	-webkit-transform:rotate(0);
 	-ms-transform:rotate(0);
 	-o-transform:rotate(0);
 	transform:rotate(0);
-	z-index: 2;
+	z-index: 1;
 	-webkit-transition: .3s;
   	transition: .3s;
 }
-.triangolo3 {
+.triangolo2Big
+{
+	position: relative;
+	right: 0;
+	bottom: 0;
+	width:0;
+	height:0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 172px solid orange;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 1;
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo3
+ {
 	
 	position: relative;
 	right: 50px;
@@ -57,8 +132,45 @@ body{
 	-webkit-transition: .3s;
   	transition: .3s;
 }
+.triangolo3Small
+{
+	position: relative;
+	right: 25px;
+	bottom: 129px;
+	width:0;
+	height:0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 43px solid orange;
+	-moz-transform:rotate(-180deg);
+	-webkit-transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo3Big
+{
+	position: relative;
+	right: 100px;
+	bottom: 516px;
+	width:0;
+	height:0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 172px solid orange;
+	-moz-transform:rotate(-180deg);
+	-webkit-transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
 
-.triangolo4 {
+.triangolo4
+ {
 	position: relative;
 	left: 50px;
 	bottom: 172px;
@@ -75,9 +187,44 @@ body{
 	-webkit-transition: .3s;
   	transition: .3s;
 }
-
-
-.triangolo5{
+.triangolo4Small
+{
+	position: relative;
+	left: 25px;
+	bottom: 86px;
+	width:0;
+	height:0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 43px solid orange;
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo4Big
+{
+	position: relative;
+	left: 100px;
+	bottom: 344px;
+	width:0;
+	height:0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 172px solid orange;
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo5
+{
 	position: relative;
 	right: 50px;
 	bottom: 258px;
@@ -92,8 +239,40 @@ body{
 	-o-transform:rotate(-0deg);
 	transform:rotate(-0deg);
 }
-
-.triangolo6{
+.triangolo5Small
+{
+	position: relative;
+	right: 25px;
+	bottom: 129px;
+	width:0;
+	height:0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 43px solid orange;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+}
+.triangolo5Big
+{
+	position: relative;
+	right: 100px;
+	bottom: 516px;
+	width:0;
+	height:0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 172px solid orange;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+}
+.triangolo6
+{
 	position: relative;
 	left: 50px;
 	bottom: 344px;
@@ -110,7 +289,44 @@ body{
 	-webkit-transition: .3s;
   	transition: .3s;
 }
-.triangolo1:hover{
+.triangolo6Small
+{		
+	position: relative;
+	left: 25px;
+	bottom: 172px;
+	width:0;
+	height:0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 43px solid orange;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo6Big
+{
+	position: relative;
+	left: 100px;
+	bottom: 688px;
+	width:0;
+	height:0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 172px solid orange;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+	-webkit-transition: .3s;
+  	transition: .3s;
+}
+.triangolo1:hover
+{
 	opacity: 0.5;
 	position: relative;
 	width:0;
@@ -126,7 +342,42 @@ body{
 	transform:rotate(0);
 	z-index: 1;
 }
-.triangolo2:hover{
+.triangolo1Small:hover
+{
+	opacity: 0.5;
+	position: relative;
+	width:0;
+	height:0;
+	bottom: 3px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 43px solid yellow;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 1;
+}
+.triangolo1Big:hover
+{
+	opacity: 0.5;
+	position: relative;
+	width:0;
+	height:0;
+	bottom: 3px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 172px solid yellow;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 1;
+}
+.triangolo2:hover
+{
 	opacity: 0.5;
 	position: relative;
 	width:0;
@@ -142,7 +393,42 @@ body{
 	transform:rotate(0);
 	z-index: 2;
 }
-.triangolo3:hover{
+.triangolo2Small:hover
+{
+	opacity: 0.5;
+	position: relative;
+	width:0;
+	height:0;
+	bottom: -3px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 43px solid yellow;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 2;
+}
+.triangolo2Big:hover
+{
+	opacity: 0.5;
+	position: relative;
+	width:0;
+	height:0;
+	bottom: -3px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 172px solid yellow;
+	-moz-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	-ms-transform:rotate(0);
+	-o-transform:rotate(0);
+	transform:rotate(0);
+	z-index: 2;
+}
+.triangolo3:hover
+{
 	opacity: 0.5;
 	position: relative;
 	right: 53px;
@@ -159,7 +445,95 @@ body{
 	transform:rotate(-180deg);
 
 }
-.triangolo5:hover{
+.triangolo3Small:hover
+{
+	opacity: 0.5;
+	position: relative;
+	right: 26.5px;
+	bottom: 129.5px;
+	width:0;
+	height:0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 43px solid yellow;
+	-moz-transform:rotate(-180deg);
+	-webkit-transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+
+}
+.triangolo3Big:hover
+{
+	opacity: 0.5;
+	position: relative;
+	right: 106px;
+	bottom: 518px;
+	width:0;
+	height:0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 172px solid yellow;
+	-moz-transform:rotate(-180deg);
+	-webkit-transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+}
+.triangolo4:hover
+{
+	opacity: 0.5;
+	position: relative;
+	left: 53px;
+	bottom: 174px;
+	width:0;
+	height:0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 86px solid yellow;
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+
+}
+.triangolo4Small:hover
+{
+	opacity: 0.5;
+	position: relative;
+	left: 26.5px;
+	bottom: 87px;
+	width:0;
+	height:0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 43px solid yellow;
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+}
+.triangolo4Big:hover
+{
+	opacity: 0.5;
+	position: relative;
+	left: 106px;
+	bottom: 348px;
+	width:0;
+	height:0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 172px solid yellow;
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+}
+.triangolo5:hover
+{
 	opacity: 0.5;
 	position: relative;
 	right: 53px;
@@ -176,7 +550,43 @@ body{
 	transform:rotate(-0deg);
 
 }
-.triangolo6:hover{
+.triangolo5Small:hover
+{
+	opacity: 0.5;
+	position: relative;
+	right: 26.5px;
+	bottom: 128.5px;
+	width:0;
+	height:0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 43px solid yellow;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+}
+.triangolo5Big:hover
+{
+	opacity: 0.5;
+	position: relative;
+	right: 106px;
+	bottom: 514px;
+	width:0;
+	height:0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 172px solid yellow;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+}
+
+.triangolo6:hover
+{
 	opacity: 0.5;
 	position: relative;
 	left: 53px;
@@ -193,22 +603,39 @@ body{
 	transform:rotate(-0deg);
 
 }
-.triangolo4:hover{
-	opacity: 0.5;
+.triangolo6Small:hover 
+{
+    opacity: 0.5;
 	position: relative;
-	left: 53px;
-	bottom: 174px;
+	left: 26.5px;
+	bottom: 171.5px;
 	width:0;
 	height:0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 86px solid yellow;
-	-moz-transform:rotate(180deg);
-	-webkit-transform:rotate(180deg);
-	-ms-transform:rotate(180deg);
-	-o-transform:rotate(180deg);
-	transform:rotate(180deg);
-
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 43px solid yellow;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
+}
+.triangolo6Big:hover
+{
+	opacity: 0.5;
+	position: relative;
+	left: 106px;
+	bottom: 686px;
+	width:0;
+	height:0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 172px solid yellow;
+	-moz-transform:rotate(-0deg);
+	-webkit-transform:rotate(-0deg);
+	-ms-transform:rotate(-0deg);
+	-o-transform:rotate(-0deg);
+	transform:rotate(-0deg);
 }
 
 .faccia1{
@@ -267,6 +694,7 @@ body{
 }
 
 .square{
+	
 	background-color: yellow;
 	border-radius: 10px;
 	width: 100px;
@@ -275,6 +703,7 @@ body{
 	-webkit-transition: .5s;
   	transition: .5s;
   	opacity: 0.5;
+  	z-index:-1;
 }
 
 .square:hover{
@@ -285,16 +714,16 @@ body{
 	background-color: yellow;
 	transform: rotate(360deg);
 	opacity: 1;
+	z-index: -1;
 }
 
 .fixed{
-	position: center;
+	
+	text-align: center;
+	line-height: 50px;
 	transform: rotate(-45deg);
-	transition: .3s;
-}
+	z-index:0;
 
-.fixed:hover{
-	position: center;
-	transform: rotate(-360deg);
-	transition: .3s;
-}
+	
+ 
+	
